@@ -1,4 +1,17 @@
 ckeditor-bootstrap-modal-plugin-example
 =======================================
 
-Example of how to create a plugin for CKEDITOR that launches a Twitter Bootstrap modal to collect input for adding an anchor tag. Requires Twitter Bootstrap, and uses Mustache for templating.
+requirements
+------------
+- twitter bootstrap's modal lib
+- mustache
+- jquery
+- ckeditor
+
+notes
+-----
+
+Think of this as a reference implementation; the config file shows how to
+inform CKEDITOR of your plugin's existence, and the plugin file shows how to
+get ahold of the CKEDITOR hooks. This plugin can be modified to not use
+Mustache, not use jQuery, not use Twitter Bootstrap w/not much effort.
